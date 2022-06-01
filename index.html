@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Домашние задания №24 </title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="card">
+        <header><img class="logo" src="img/logo.png">
+            <h1>Конвертер валют</h1>
+        </header>
+        <div class="selectorAndDate">
+            <select class="moneyType">
+                <option value="Nul">Нал.</option>
+                <option value="Beznul">Безнал.</option>
+            </select>
+            <h2>28.05.2022</h2>
+        </div>
+        <div class="calculation">
+            <h3>МЕНЯЮ</h3>
+            <div class="changeMoney">
+                <input type="text" class="inputChangeMoney" placeholder="0.00">
+                <select class="valutaChange">
+                    <option value="usd">USD</option>
+                    <option value="eur">EUR</option>
+                    <option value="uah">UAH</option>
+                </select>
+            </div>
+        </div>
+        <div class="equalAndChangeValute">
+            <div class="buttonEqual">
+                <p class="equal">=</p>
+            </div>
+            <div class="rowChangeValute"><img class="row" src="img/row.png"></div>
+        </div>
+        <div class="blockResult">
+            <h3>ПОЛУЧАЮ</h3>
+            <div class="changeMoney">
+                <input type="text" class="resultChangeMoney" placeholder="0.00" disabled>
+                <select class="valutaResult">
+                    <option value="usd">USD</option>
+                    <option value="eur">EUR</option>
+                    <option value="uah">UAH</option>
+                </select>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="js/script.js"></script>
+    <script>
+        let param = {
+            card: '.card',
+        };
+        const calcValute = new CulculatorValute(param);
+        calcValute.init();
+
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,168 @@
+ body {
+     background-color: rgb(68, 63, 63);
+ }
+
+ .card {
+     margin: 100px auto;
+
+     background-color: rgb(227, 227, 227);
+     width: 300px;
+     height: 375px;
+     display: flex;
+     flex-direction: column;
+     justify-content: start;
+     box-shadow: 5px 5px 115px -14px black;
+
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+ }
+
+ header {
+     width: 100%;
+     height: 50px;
+
+     background: linear-gradient(to top, rgb(127, 190, 131) 50%, rgb(183, 219, 185) 50%);
+     display: grid;
+     grid-template-columns: 1fr 6fr;
+     align-items: center;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+ }
+
+ .logo {
+     width: 25px;
+     height: 25px;
+     margin-left: 10px;
+ }
+
+ h1 {
+     font-size: 22px;
+     color: rgb(65, 65, 65);
+     margin-left: 10px;
+ }
+
+ .selectorAndDate {
+     width: 100%;
+     height: 50px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     overflow: hidden;
+     background-image: url(../img/fon.jpg);
+     opacity: 70%;
+
+ }
+
+ .moneyType {
+     margin-left: 10px;
+     width: 80px;
+     border-radius: 4px;
+     border: none;
+ }
+
+ h2 {
+     margin-right: 10px;
+     font-size: 16px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ .calculation {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: start;
+ }
+
+ .changeMoney {
+     display: grid;
+     grid-template-columns: 5fr 1fr;
+     grid-column-gap: 5px;
+ }
+
+ h3 {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 16px;
+     color: rgb(102, 101, 100);
+     margin: 20px 0 5px 10px;
+ }
+
+ .inputChangeMoney,
+ .resultChangeMoney {
+     margin-left: 10px;
+     width: 210px;
+     height: 50px;
+     text-align: end;
+     font-size: 30px;
+     color: black;
+     border-radius: 5px;
+     border: 1px solid rgb(148, 144, 144);
+     background: linear-gradient(to top, rgb(255, 251, 210) 50%, white 50%);
+ }
+
+ .valutaChange {
+     margin-right: 10px;
+     width: 60px;
+     height: 54px;
+     color: rgb(158, 151, 151);
+     border-radius: 5px;
+     border: 1px solid rgb(148, 144, 144);
+     background: linear-gradient(to top, rgb(255, 251, 210) 50%, white 50%);
+ }
+
+ .equalAndChangeValute {
+     margin-top: 20px;
+     display: flex;
+     flex-direction: row;
+     justify-content: end;
+ }
+
+ .buttonEqual {
+     margin-right: 10px;
+     width: 60px;
+     height: 54px;
+     color: rgb(255, 255, 255);
+     border-radius: 5px;
+     border: 1px solid rgb(148, 144, 144);
+     background: linear-gradient(to top, rgb(224, 0, 26) 50%, rgb(237, 93, 99) 50%);
+ }
+
+ .equal {
+     color: white;
+     font-size: 40px;
+     font-weight: bold;
+     text-align: center;
+     margin-top: 6px;
+ }
+
+ .rowChangeValute {
+     margin-right: 10px;
+     width: 60px;
+     height: 54px;
+     color: rgb(255, 255, 255);
+     border-radius: 5px;
+     border: 1px solid rgb(148, 144, 144);
+     background: linear-gradient(to top, rgb(234, 234, 234) 50%, white 50%);
+ }
+
+ .row {
+     width: 20px;
+     height: 28px;
+     margin: 13px 0 0 20px;
+     opacity: 70%;
+ }
+
+ .valutaResult {
+     margin-right: 10px;
+     width: 60px;
+     height: 54px;
+     color: rgb(158, 151, 151);
+     border-radius: 5px;
+     border: 1px solid rgb(148, 144, 144);
+     background: linear-gradient(to top, rgb(255, 251, 210) 50%, white 50%);
+ }
+
+ .blockResult {
+     width: 100%;
+     height: 100px;
+ }
